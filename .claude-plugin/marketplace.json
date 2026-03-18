@@ -9,7 +9,7 @@
       "description": "Opinionated TypeScript guidelines for AI-assisted development -- one opinion per decision point",
       "source": {
         "source": "git-subdir",
-        "url": "sethlivingston/the-typescript-narrows",
+        "url": "https://github.com/sethlivingston/the-typescript-narrows.git",
         "path": "plugin/the-typescript-narrows"
       }
     }
