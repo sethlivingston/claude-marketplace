@@ -16,8 +16,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Plugin Structure
 
-- [ ] **PLUG-01**: The-typescript-narrows skill repo has `.claude-plugin/plugin.json` manifest
-- [ ] **PLUG-02**: The-typescript-narrows skill files are in `skills/the-typescript-narrows/` subdirectory
+- [x] **PLUG-01**: The-typescript-narrows skill repo has `.claude-plugin/plugin.json` manifest
+- [x] **PLUG-02**: The-typescript-narrows skill files are in `skills/the-typescript-narrows/` subdirectory
 - [ ] **PLUG-03**: Marketplace references the-typescript-narrows via `git-subdir` source pointing to the plugin subdirectory
 - [ ] **PLUG-04**: User can install the-typescript-narrows and use the `/the-typescript-narrows` skill
 
@@ -59,8 +59,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | MKTPL-02 | Phase 2 | Pending |
 | MKTPL-03 | Phase 2 | Pending |
 | MKTPL-04 | Phase 2 | Pending |
-| PLUG-01 | Phase 1 | Pending |
-| PLUG-02 | Phase 1 | Pending |
+| PLUG-01 | Phase 1 | Complete |
+| PLUG-02 | Phase 1 | Complete |
 | PLUG-03 | Phase 2 | Pending |
 | PLUG-04 | Phase 2 | Pending |
 | POLSH-01 | Phase 3 | Pending |
