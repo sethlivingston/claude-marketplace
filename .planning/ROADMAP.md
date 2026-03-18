@@ -26,10 +26,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   1. The skill repo has a `.claude-plugin/plugin.json` manifest with correct name, description, and version
   2. Skill files live at `skills/the-typescript-narrows/SKILL.md` within the plugin subdirectory
   3. `claude plugin validate .` passes when run against the plugin directory
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 01-01: TBD
+- [ ] 01-01-PLAN.md — Restructure files, create manifest, update references, validate plugin
 
 ### Phase 2: Marketplace Catalog
 **Goal**: Users can add the marketplace and install the-typescript-narrows plugin end-to-end
@@ -66,6 +66,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Plugin Structure | 0/? | Not started | - |
+| 1. Plugin Structure | 0/1 | Not started | - |
 | 2. Marketplace Catalog | 0/? | Not started | - |
 | 3. Polish | 0/? | Not started | - |
