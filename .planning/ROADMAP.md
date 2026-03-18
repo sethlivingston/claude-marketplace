@@ -54,10 +54,11 @@ Plans:
   1. Plugin entries include author, homepage, repository, license, and keywords metadata
   2. The `git-subdir` source pins to a specific ref or sha for version stability
   3. A GitHub Actions workflow runs `claude plugin validate .` on push and PR
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 03-01: TBD
+- [ ] 03-01-PLAN.md — Enrich plugin.json metadata, rename tag convention to plugin/v*, create plugin/v1.0.0 tag
+- [ ] 03-02-PLAN.md — Enrich marketplace.json with metadata and ref pinning, create CI validation workflow
 
 ## Progress
 
@@ -68,4 +69,4 @@ Phases execute in numeric order: 1 → 2 → 3
 |-------|----------------|--------|-----------|
 | 1. Plugin Structure | 1/1 | Complete | 2026-03-18 |
 | 2. Marketplace Catalog | 0/1 | Planned | - |
-| 3. Polish | 0/? | Not started | - |
+| 3. Polish | 0/2 | Not started | - |
