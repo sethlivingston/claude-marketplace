@@ -23,8 +23,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Polish
 
-- [ ] **POLSH-01**: Plugin entries include metadata (author, homepage, repository, license, keywords)
-- [ ] **POLSH-02**: Plugin entries pin to a specific ref or sha for version stability
+- [x] **POLSH-01**: Plugin entries include metadata (author, homepage, repository, license, keywords)
+- [x] **POLSH-02**: Plugin entries pin to a specific ref or sha for version stability
 - [ ] **POLSH-03**: GitHub Actions workflow validates marketplace on push/PR
 
 ## v2 Requirements
@@ -63,8 +63,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PLUG-02 | Phase 1 | Complete |
 | PLUG-03 | Phase 2 | Complete |
 | PLUG-04 | Phase 2 | Complete |
-| POLSH-01 | Phase 3 | Pending |
-| POLSH-02 | Phase 3 | Pending |
+| POLSH-01 | Phase 3 | Complete |
+| POLSH-02 | Phase 3 | Complete |
 | POLSH-03 | Phase 3 | Pending |
 
 **Coverage:**

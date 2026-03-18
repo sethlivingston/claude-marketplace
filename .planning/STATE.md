@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-stopped_at: Phase 3 context gathered
-last_updated: "2026-03-18T20:21:15.510Z"
+stopped_at: Completed 03-01-PLAN.md
+last_updated: "2026-03-18T20:36:46.736Z"
 progress:
   total_phases: 3
   completed_phases: 2
-  total_plans: 2
-  completed_plans: 2
+  total_plans: 4
+  completed_plans: 3
 ---
 
 # Project State
@@ -19,12 +19,12 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-18)
 
 **Core value:** Coders can discover and install Seth's Claude Code plugins from a single, well-structured marketplace
-**Current focus:** Phase 02 — marketplace-catalog (COMPLETE)
+**Current focus:** Phase 03 — polish
 
 ## Current Position
 
-Phase: 02 (marketplace-catalog) — COMPLETE
-Plan: 1 of 1 (all complete)
+Phase: 03 (polish) — EXECUTING
+Plan: 2 of 2
 
 ## Performance Metrics
 
@@ -48,6 +48,7 @@ Plan: 1 of 1 (all complete)
 
 *Updated after each plan completion*
 | Phase 01 P01 | 5min | 2 tasks | 26 files |
+| Phase 03-polish P01 | 2min | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -61,6 +62,8 @@ Recent decisions affecting current work:
 - [Phase 01]: Used minimal plugin.json with only name, description, version (author/homepage deferred to Phase 3)
 - [Phase 02]: Used HTTPS URL for plugin source instead of GitHub shorthand -- SSH fails for users without SSH keys
 - [Phase 02]: Omitted owner.email from marketplace.json -- validation passes without it
+- [Phase 03-polish]: Renamed tag convention from skill/v* to plugin/v* for semantic clarity
+- [Phase 03-polish]: Preserved old skill/v1.0.0 tag for backward compatibility
 
 ### Pending Todos
 
@@ -72,6 +75,6 @@ None -- Phase 1 blocker resolved (plugin structure created and validated).
 
 ## Session Continuity
 
-Last session: 2026-03-18T20:21:15.500Z
-Stopped at: Phase 3 context gathered
-Resume file: .planning/phases/03-polish/03-CONTEXT.md
+Last session: 2026-03-18T20:36:46.734Z
+Stopped at: Completed 03-01-PLAN.md
+Resume file: None
