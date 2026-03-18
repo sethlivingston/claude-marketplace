@@ -9,17 +9,17 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Marketplace Catalog
 
-- [ ] **MKTPL-01**: Marketplace repo has valid `.claude-plugin/marketplace.json` with name, owner, and plugins array
-- [ ] **MKTPL-02**: Each plugin entry has a concise description explaining what it does
-- [ ] **MKTPL-03**: Marketplace passes `claude plugin validate .` with no errors
-- [ ] **MKTPL-04**: User can add marketplace via `/plugin marketplace add sethlivingston/claude-marketplace`
+- [x] **MKTPL-01**: Marketplace repo has valid `.claude-plugin/marketplace.json` with name, owner, and plugins array
+- [x] **MKTPL-02**: Each plugin entry has a concise description explaining what it does
+- [x] **MKTPL-03**: Marketplace passes `claude plugin validate .` with no errors
+- [x] **MKTPL-04**: User can add marketplace via `/plugin marketplace add sethlivingston/claude-marketplace`
 
 ### Plugin Structure
 
 - [x] **PLUG-01**: The-typescript-narrows skill repo has `.claude-plugin/plugin.json` manifest
 - [x] **PLUG-02**: The-typescript-narrows skill files are in `skills/the-typescript-narrows/` subdirectory
-- [ ] **PLUG-03**: Marketplace references the-typescript-narrows via `git-subdir` source pointing to the plugin subdirectory
-- [ ] **PLUG-04**: User can install the-typescript-narrows and use the `/the-typescript-narrows` skill
+- [x] **PLUG-03**: Marketplace references the-typescript-narrows via `git-subdir` source pointing to the plugin subdirectory
+- [x] **PLUG-04**: User can install the-typescript-narrows and use the `/the-typescript-narrows` skill
 
 ### Polish
 
@@ -55,14 +55,14 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| MKTPL-01 | Phase 2 | Pending |
-| MKTPL-02 | Phase 2 | Pending |
-| MKTPL-03 | Phase 2 | Pending |
-| MKTPL-04 | Phase 2 | Pending |
+| MKTPL-01 | Phase 2 | Complete |
+| MKTPL-02 | Phase 2 | Complete |
+| MKTPL-03 | Phase 2 | Complete |
+| MKTPL-04 | Phase 2 | Complete |
 | PLUG-01 | Phase 1 | Complete |
 | PLUG-02 | Phase 1 | Complete |
-| PLUG-03 | Phase 2 | Pending |
-| PLUG-04 | Phase 2 | Pending |
+| PLUG-03 | Phase 2 | Complete |
+| PLUG-04 | Phase 2 | Complete |
 | POLSH-01 | Phase 3 | Pending |
 | POLSH-02 | Phase 3 | Pending |
 | POLSH-03 | Phase 3 | Pending |
