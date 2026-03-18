@@ -55,23 +55,23 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| MKTPL-01 | — | Pending |
-| MKTPL-02 | — | Pending |
-| MKTPL-03 | — | Pending |
-| MKTPL-04 | — | Pending |
-| PLUG-01 | — | Pending |
-| PLUG-02 | — | Pending |
-| PLUG-03 | — | Pending |
-| PLUG-04 | — | Pending |
-| POLSH-01 | — | Pending |
-| POLSH-02 | — | Pending |
-| POLSH-03 | — | Pending |
+| MKTPL-01 | Phase 2 | Pending |
+| MKTPL-02 | Phase 2 | Pending |
+| MKTPL-03 | Phase 2 | Pending |
+| MKTPL-04 | Phase 2 | Pending |
+| PLUG-01 | Phase 1 | Pending |
+| PLUG-02 | Phase 1 | Pending |
+| PLUG-03 | Phase 2 | Pending |
+| PLUG-04 | Phase 2 | Pending |
+| POLSH-01 | Phase 3 | Pending |
+| POLSH-02 | Phase 3 | Pending |
+| POLSH-03 | Phase 3 | Pending |
 
 **Coverage:**
 - v1 requirements: 11 total
-- Mapped to phases: 0
-- Unmapped: 11 ⚠️
+- Mapped to phases: 11
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-18*
-*Last updated: 2026-03-18 after initial definition*
+*Last updated: 2026-03-18 after roadmap creation*
