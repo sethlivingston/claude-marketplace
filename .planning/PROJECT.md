@@ -14,18 +14,18 @@ Coders can discover and install Seth's Claude Code plugins from a single, well-s
 
 <!-- Shipped and confirmed valuable. -->
 
-(None yet — ship to validate)
+- [x] Marketplace repo with valid `.claude-plugin/marketplace.json` — Validated in Phase 2: marketplace-catalog
+- [x] The-typescript-narrows listed as first plugin using `git-subdir` source — Validated in Phase 2: marketplace-catalog
+- [x] The-typescript-narrows skill repo structured as a valid Claude Code plugin (`.claude-plugin/plugin.json`, `skills/` directory) — Validated in Phase 1: plugin-structure
+- [x] Users can add marketplace via `/plugin marketplace add sethlivingston/claude-marketplace` — Validated in Phase 2: marketplace-catalog
+- [x] Users can install the-typescript-narrows plugin and use the `/the-typescript-narrows` skill — Validated in Phase 2: marketplace-catalog
+- [x] Marketplace passes `claude plugin validate .` — Validated in Phase 2: marketplace-catalog
 
 ### Active
 
 <!-- Current scope. Building toward these. -->
 
-- [ ] Marketplace repo with valid `.claude-plugin/marketplace.json`
-- [ ] The-typescript-narrows listed as first plugin using `git-subdir` source
-- [ ] The-typescript-narrows skill repo structured as a valid Claude Code plugin (`.claude-plugin/plugin.json`, `skills/` directory)
-- [ ] Users can add marketplace via `/plugin marketplace add sethlivingston/claude-marketplace`
-- [ ] Users can install the-typescript-narrows plugin and use the `/the-typescript-narrows` skill
-- [ ] Marketplace passes `claude plugin validate .`
+(All active requirements validated)
 
 ### Out of Scope
 
@@ -54,9 +54,10 @@ Coders can discover and install Seth's Claude Code plugins from a single, well-s
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Thin catalog approach | Plugins stay in their own repos; marketplace is just a pointer | — Pending |
-| Personal marketplace only | No community contributions needed at this scale | — Pending |
-| git-subdir source for first plugin | Skill lives in a subdirectory of another repo | — Pending |
+| Thin catalog approach | Plugins stay in their own repos; marketplace is just a pointer | Confirmed |
+| Personal marketplace only | No community contributions needed at this scale | Confirmed |
+| git-subdir source for first plugin | Skill lives in a subdirectory of another repo | Confirmed |
+| HTTPS URLs for plugin sources | GitHub shorthand defaults to SSH, which fails without SSH keys | Confirmed |
 
 ---
-*Last updated: 2026-03-18 after initialization*
+*Last updated: 2026-03-18 after Phase 2 completion*
