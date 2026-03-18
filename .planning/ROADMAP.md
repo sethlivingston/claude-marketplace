@@ -41,10 +41,10 @@ Plans:
   3. User can run `/plugin marketplace add sethlivingston/claude-marketplace` successfully
   4. User can install the-typescript-narrows and invoke the `/the-typescript-narrows` skill
   5. `claude plugin validate .` passes on the marketplace repo with no errors
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 02-01: TBD
+- [ ] 02-01-PLAN.md — Create marketplace manifest, repo boilerplate, validate and test end-to-end installation
 
 ### Phase 3: Polish
 **Goal**: The marketplace feels professional and resists accidental breakage
@@ -66,6 +66,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Plugin Structure | 0/1 | Not started | - |
-| 2. Marketplace Catalog | 0/? | Not started | - |
+| 1. Plugin Structure | 1/1 | Complete | 2026-03-18 |
+| 2. Marketplace Catalog | 0/1 | Planned | - |
 | 3. Polish | 0/? | Not started | - |
