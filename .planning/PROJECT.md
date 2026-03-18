@@ -20,6 +20,9 @@ Coders can discover and install Seth's Claude Code plugins from a single, well-s
 - [x] Users can add marketplace via `/plugin marketplace add sethlivingston/claude-marketplace` — Validated in Phase 2: marketplace-catalog
 - [x] Users can install the-typescript-narrows plugin and use the `/the-typescript-narrows` skill — Validated in Phase 2: marketplace-catalog
 - [x] Marketplace passes `claude plugin validate .` — Validated in Phase 2: marketplace-catalog
+- [x] Plugin and marketplace metadata enriched (author, homepage, license, keywords) — Validated in Phase 3: polish
+- [x] Plugin ref pinned to `plugin/v1.0.0` tag — Validated in Phase 3: polish
+- [x] CI validation workflow runs `claude plugin validate .` on PRs — Validated in Phase 3: polish
 
 ### Active
 
@@ -40,9 +43,9 @@ Coders can discover and install Seth's Claude Code plugins from a single, well-s
 - Plugins can be sourced from GitHub repos, git URLs, git subdirectories, npm, or relative paths
 - The first plugin (`the-typescript-narrows`) currently lives at `sethlivingston/the-typescript-narrows` in the `skill/the-typescript-narrows` subdirectory
 - The skill has a `SKILL.md` with frontmatter and `references/` directory with detailed TypeScript opinion guides
-- The skill repo currently lacks plugin structure (no `.claude-plugin/plugin.json`, skills not in `skills/` subdirectory)
+- The skill repo has been restructured as a valid Claude Code plugin with `.claude-plugin/plugin.json` and `skills/` subdirectory
 - The `git-subdir` source type allows sparse cloning of just the plugin subdirectory from a larger repo
-- Using `strict: false` in the marketplace entry may allow defining plugin metadata entirely from the marketplace side
+- Tag convention migrated from `skill/v*` to `plugin/v*`; current release: `plugin/v1.0.0`
 
 ## Constraints
 
@@ -60,4 +63,4 @@ Coders can discover and install Seth's Claude Code plugins from a single, well-s
 | HTTPS URLs for plugin sources | GitHub shorthand defaults to SSH, which fails without SSH keys | Confirmed |
 
 ---
-*Last updated: 2026-03-18 after Phase 2 completion*
+*Last updated: 2026-03-18 after Phase 3 completion — all milestone phases complete*
