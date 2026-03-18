@@ -1,0 +1,17 @@
+{
+  "name": "sethlivingston-plugins",
+  "owner": {
+    "name": "sethlivingston"
+  },
+  "plugins": [
+    {
+      "name": "the-typescript-narrows",
+      "description": "Opinionated TypeScript guidelines for AI-assisted development -- one opinion per decision point",
+      "source": {
+        "source": "git-subdir",
+        "url": "sethlivingston/the-typescript-narrows",
+        "path": "plugin/the-typescript-narrows"
+      }
+    }
+  ]
+}
