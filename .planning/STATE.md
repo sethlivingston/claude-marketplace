@@ -39,8 +39,15 @@ None.
 
 None.
 
+### Quick Tasks Completed
+
+| # | Description | Date | Commit | Directory |
+|---|-------------|------|--------|-----------|
+| 260319-dmu | Update READMEs in the-typescript-narrows and plugin with marketplace installation instructions | 2026-03-19 | dfba469 | [260319-dmu-update-readmes-in-the-typescript-narrows](./quick/260319-dmu-update-readmes-in-the-typescript-narrows/) |
+
 ## Session Continuity
 
-Last session: 2026-03-18
-Stopped at: v1.0 milestone complete
+Last activity: 2026-03-19 - Completed quick task 260319-dmu: Update READMEs in the-typescript-narrows and plugin with marketplace installation instructions
+Last session: 2026-03-19
+Stopped at: Quick task 260319-dmu complete
 Resume file: None
